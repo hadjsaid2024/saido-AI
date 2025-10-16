@@ -2,7 +2,7 @@ const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
 
-const API_KEY = "ضع_مفتاحك_هنا"; // ← استبدل هذه الجملة بمفتاح OpenAI API الخاص بك
+const API_KEY = "YOUR_OPENAI_KEY" OpenAI API الخاص بك
 
 async function sendMessage() {
   const message = userInput.value.trim();
